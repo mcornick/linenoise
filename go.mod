@@ -1,3 +1,3 @@
-module github.com/markcornick/linenoise
+module git.sr.ht/~mcornick/linenoise
 
 go 1.17

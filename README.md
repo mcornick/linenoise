@@ -1,8 +1,5 @@
 # linenoise
 
-![Release](https://img.shields.io/github/release/markcornick/linenoise.svg)
-![License](https://img.shields.io/github/license/markcornick/linenoise)
-
 linenoise is a library that generates strings of random characters
 (herein called a "noise") that can be used as reasonably secure
 passwords.It is an extraction of the password generator from my prior
