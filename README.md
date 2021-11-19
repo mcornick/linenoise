@@ -28,8 +28,9 @@ object.
 
 ## Contributing
 
-Bug reports and pull requests are welcome on Sourcehut at
-https://todo.sr.ht/~mcornick/linenoise.
+Bug reports are welcome on Sourcehut at
+https://todo.sr.ht/~mcornick/linenoise. Patches can be sent to
+<~mcornick/linenoise@lists.sr.ht>.
 
 This project is intended to be a safe, welcoming space for
 collaboration, and contributors are expected to adhere to the
