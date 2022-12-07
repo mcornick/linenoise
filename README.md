@@ -1,12 +1,12 @@
 # linenoise
 
-![Release](https://img.shields.io/github/release/markcornick/linenoise.svg)
-![License](https://img.shields.io/github/license/markcornick/linenoise)
+![Release](https://img.shields.io/github/release/mcornick/linenoise.svg)
+![License](https://img.shields.io/github/license/mcornick/linenoise)
 
 linenoise is a library that generates strings of random characters
 (herein called a "noise") that can be used as reasonably secure
 passwords.It is an extraction of the password generator from my prior
-project [genpw](https://github.com/markcornick/genpw), and intended to
+project [genpw](https://github.com/mcornick/genpw), and intended to
 be genpw's successor.
 
 ## Interface
@@ -32,7 +32,7 @@ object.
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at
-https://github.com/markcornick/linenoise.
+https://github.com/mcornick/linenoise.
 
 This project is intended to be a safe, welcoming space for
 collaboration, and contributors are expected to adhere to the
