@@ -1,3 +1,3 @@
 module git.sr.ht/~mcornick/linenoise
 
-go 1.15
+go 1.17
