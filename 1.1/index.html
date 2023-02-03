@@ -309,6 +309,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#example" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#contributing-to-linenoise" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -356,6 +367,17 @@
     <span class="md-ellipsis">
       
         Interface
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example
       
     </span>
   </a>
@@ -420,6 +442,19 @@
 <li><code>Lower bool</code> indicates whether the noise should contain lowercase characters.</li>
 <li><code>Digit bool</code> indicates whether the noise should contain digits.</li>
 </ul>
+<h2 id="example">Example</h2>
+<div class="highlight"><pre><span></span><code><span class="nx">p</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">linenoise</span><span class="p">.</span><span class="nx">Parameters</span><span class="p">{</span>
+<span class="w">        </span><span class="nx">Length</span><span class="p">:</span><span class="w"> </span><span class="mi">42</span><span class="p">,</span>
+<span class="w">        </span><span class="nx">Upper</span><span class="p">:</span><span class="w">  </span><span class="kc">true</span><span class="p">,</span>
+<span class="w">        </span><span class="nx">Lower</span><span class="p">:</span><span class="w">  </span><span class="kc">false</span><span class="p">,</span>
+<span class="w">        </span><span class="nx">Digit</span><span class="p">:</span><span class="w">  </span><span class="kc">true</span><span class="p">,</span>
+<span class="p">}</span>
+<span class="nx">result</span><span class="p">,</span><span class="w"> </span><span class="nx">err</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">linenoise</span><span class="p">.</span><span class="nx">Noise</span><span class="p">(</span><span class="nx">p</span><span class="p">)</span>
+<span class="k">if</span><span class="w"> </span><span class="nx">err</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="kc">nil</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nx">log</span><span class="p">.</span><span class="nx">Fatal</span><span class="p">(</span><span class="nx">err</span><span class="p">)</span>
+<span class="p">}</span>
+<span class="nx">fmt</span><span class="p">.</span><span class="nx">Println</span><span class="p">(</span><span class="nx">result</span><span class="p">)</span>
+</code></pre></div>
 <h2 id="contributing-to-linenoise">Contributing to linenoise</h2>
 <p>If you think you have a problem, improvement, or other contribution towards the betterment of <strong>linenoise</strong>, please file an issue or, where appropriate, a pull request.</p>
 <p>Keep in mind that I'm not paid to write Go code, so I'm doing this in my spare time, which means it might take me a while to respond.</p>
