@@ -18,6 +18,22 @@ __linenoise__ exports one function and one struct.
 * `Lower bool` indicates whether the noise should contain lowercase characters.
 * `Digit bool` indicates whether the noise should contain digits.
 
+## Example
+
+```go
+p := linenoise.Parameters{
+        Length: 42,
+        Upper:  true,
+        Lower:  false,
+        Digit:  true,
+}
+result, err := linenoise.Noise(p)
+if err != nil {
+        log.Fatal(err)
+}
+fmt.Println(result)
+```
+
 ## Contributing to linenoise
 
 If you think you have a problem, improvement, or other contribution towards the betterment of __linenoise__, please file an issue or, where appropriate, a pull request.
