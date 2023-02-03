@@ -1,0 +1,43 @@
+---
+copyright: Copyright &copy; 2017-2023 Mark Cornick
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/mcornick
+    - icon: fontawesome/brands/mastodon
+      link: https://social.sdf.org/@mcornick
+  version:
+    provider: mike
+markdown_extensions:
+  - admonition
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+plugins:
+  - git-revision-date-localized
+  - social
+repo_name: mcornick/linenoise
+repo_url: https://github.com/mcornick/linenoise
+site_author: Mark Cornick
+site_description: __linenoise__ is a Go library that generates strings of random characters that can be used as reasonably secure passwords.
+site_name: "linenoise"
+site_url: https://mcornick.com/linenoise/
+theme:
+  features:
+    - content.action.edit
+    - content.action.view
+    - content.code.copy
+  icon:
+    repo: fontawesome/brands/github
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
