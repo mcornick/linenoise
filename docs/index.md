@@ -21,6 +21,8 @@ __linenoise__ exports one function and one struct.
 ## Example
 
 ```go
+import "github.com/mcornick/linenoise"
+
 p := linenoise.Parameters{
         Length: 42,
         Upper:  true,
