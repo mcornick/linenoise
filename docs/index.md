@@ -3,7 +3,7 @@ title: linenoise
 ---
 __linenoise__ is a library that generates strings of random characters (herein called a "noise") that can be used as reasonably secure passwords.It is an extraction of the password generator from my prior project _genpw_, and intended to be genpw's successor.
 
-__linenoise__ 1.0.x is stable. There will be no new features added to __linenoise__ 1.0.x. New features may be added in a 1.1.x or 2.0.x branch, if I think of any, but I have none planned right now.
+__linenoise__ 1.0.x and 1.1.x are stable. There will be no new features added to __linenoise__ 1.x.x. New features may be added in a 2.0.x branch, if I think of any, but I have none planned right now.
 
 ## Interface
 
