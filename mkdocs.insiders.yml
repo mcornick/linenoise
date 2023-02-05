@@ -1,6 +1,7 @@
 ---
 INHERIT: mkdocs.yml
 theme:
+  name: material
   palette:
     - media: (prefers-color-scheme)
       toggle:
